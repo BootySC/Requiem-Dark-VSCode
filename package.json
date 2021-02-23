@@ -1,6 +1,7 @@
 {
     "name": "requiem-dark",
     "displayName": "Requiem-Dark",
+    "publisher": "BootySC",
     "description": "Slightly purple",
     "version": "0.0.1",
     "engines": {
@@ -8,7 +9,11 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/BootySC/Requiem-Dark-VSCode"
+    },
+    "galleryBanner": {
+        "color": "#4800a1",
+        "theme": "dark"
     },
     "categories": [
         "Themes"
