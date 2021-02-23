@@ -1,13 +1,17 @@
 {
 	"name": "Requiem Dark",
 	"type": "dark",
+	"semanticHighlighting": true,
+	"git.decorations.enabled": false,
 	"colors": {
+		"dropdown.background": "#1c1c21",
+        "dropdown.border": "#191A21",
+        "dropdown.foreground": "#F8F8F2",
         "editorGroupHeader.tabsBackground": "#1c1b1f",
 		"foreground": "#F8F8F2",
         "statusBar.background": "#1c1b1f",
         "statusBar.foreground": "#ffffff",
         "titleBar.activeBackground": "#1c1b1f",
-		//"contrastBorder": "#191A21",
         "activityBar.inactiveForeground": "#FFFFFF",
         "activityBar.foreground": "#ffffff",
 		"activityBar.background": "#1c1b1f",
@@ -55,6 +59,8 @@
 		{
 			"name": "Light Blue",
 			"scope": [
+				"punctuation.support.type.property-name.begin.json",
+				"punctuation.support.type.property-name.end.json",
 				"meta.object-literal.key.js",
 				"support.variable.property.js",
 				//"punctuation.definition.string.begin"
@@ -67,10 +73,11 @@
 		{
 			"name": "Pink",
 			"scope": [
+				"keyword.control.loop.js",
 				"keyword.control.trycatch.js",
 				"keyword.control.conditional.js",
 				"support.type.object.module.js",
-				//"meta.block.js",
+				"keyword.control.flow.js",
 			],
 			"settings": {
 				"foreground": "#f856e3"
@@ -212,7 +219,8 @@
 		},
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
-			"scope": [
+			"scope": [				
+				"string.quoted.double.json",
 				"string.template.js",
 				"string.quoted.double.js",
 				"string.quoted.single.js",
@@ -220,6 +228,7 @@
 				"punctuation.definition.string.end",
 				"punctuation.definition.string.template.begin.js",
 				"punctuation.definition.string.template.end.js",
+				"string.quoted.double.yaml.source.yaml",
 				//"string.template.js",
 				//"string.template.js",
 				//"meta.block.js",
