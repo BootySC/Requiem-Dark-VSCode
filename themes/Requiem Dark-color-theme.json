@@ -59,6 +59,7 @@
 		{
 			"name": "Light Blue",
 			"scope": [
+				"entity.name.type.module.js",
 				"punctuation.support.type.property-name.begin.json",
 				"punctuation.support.type.property-name.end.json",
 				"meta.object-literal.key.js",
@@ -66,7 +67,7 @@
 				//"punctuation.definition.string.begin"
 			],
 			"settings": {
-				"foreground": "#56d2f8"
+				"foreground": "#8ae4ff"
 			}
 		},
 		//Pink
@@ -87,6 +88,7 @@
 		{
 			"name": "White",
 			"scope": [
+				"meta.brace.square.js",
 				"keyword.operator.comparison.js",
 				"keyword.operator.logical.js",
 				"punctuation",
@@ -103,7 +105,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#56d2f8"
+				"foreground": "#8ae4ff"
 			}
 		},
 		{
@@ -170,6 +172,7 @@
 		{
 			"name": "Function, Special Method",
 			"scope": [
+				"entity.name.type.class",
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
@@ -188,13 +191,13 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#56d2f8"
+				"foreground": "#8ae4ff"
 			}
 		},
 		{
 			"name": "Other Variable, String Link",
 			"scope": [
-				"support.other.variable",
+
 				"string.other.link"
 			],
 			"settings": {
